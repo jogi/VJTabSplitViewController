@@ -20,6 +20,10 @@
 		8F650F151476ECC50084091B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F141476ECC50084091B /* SecondViewController.m */; };
 		8F650F171476ECC50084091B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F161476ECC50084091B /* second.png */; };
 		8F650F191476ECC50084091B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F181476ECC50084091B /* second@2x.png */; };
+		8F650F871476ED950084091B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F841476ED950084091B /* DetailViewController.m */; };
+		8F650F881476ED950084091B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F861476ED950084091B /* MasterViewController.m */; };
+		8F650F8C1476EDD50084091B /* VJSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F8B1476EDD50084091B /* VJSplitViewController.m */; };
+		8F650F901476EE720084091B /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F8F1476EE720084091B /* VJTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +31,29 @@
 		8F650EF71476ECC40084091B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8F650EF91476ECC40084091B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F650EFB1476ECC40084091B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8F650EFF1476ECC40084091B /* VJTabSplitViewController-Info.plist */ = {isa = PBXFileReference; path = "VJTabSplitViewController-Info.plist"; sourceTree = "<group>"; };
+		8F650EFF1476ECC40084091B /* VJTabSplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VJTabSplitViewController-Info.plist"; sourceTree = "<group>"; };
 		8F650F011476ECC40084091B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F650F031476ECC40084091B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F650F051476ECC40084091B /* VJTabSplitViewController-Prefix.pch */ = {isa = PBXFileReference; path = "VJTabSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
-		8F650F061476ECC40084091B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F650F051476ECC40084091B /* VJTabSplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VJTabSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		8F650F061476ECC40084091B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F650F071476ECC40084091B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8F650F0A1476ECC40084091B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8F650F0C1476ECC50084091B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8F650F0C1476ECC50084091B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8F650F0D1476ECC50084091B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8F650F0F1476ECC50084091B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8F650F111476ECC50084091B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8F650F131476ECC50084091B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F650F131476ECC50084091B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8F650F141476ECC50084091B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8F650F161476ECC50084091B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		8F650F181476ECC50084091B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8F650F831476ED950084091B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8F650F841476ED950084091B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8F650F851476ED950084091B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8F650F861476ED950084091B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8F650F8A1476EDD50084091B /* VJSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJSplitViewController.h; sourceTree = "<group>"; };
+		8F650F8B1476EDD50084091B /* VJSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJSplitViewController.m; sourceTree = "<group>"; };
+		8F650F8E1476EE720084091B /* VJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTabBarController.h; sourceTree = "<group>"; };
+		8F650F8F1476EE720084091B /* VJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				8F650EFD1476ECC40084091B /* VJTabSplitViewController */,
+				8F650F911476F06C0084091B /* Resources */,
 				8F650EF61476ECC40084091B /* Frameworks */,
 				8F650EF41476ECC40084091B /* Products */,
 			);
@@ -88,18 +101,11 @@
 		8F650EFD1476ECC40084091B /* VJTabSplitViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8F650F891476ED9B0084091B /* SplitViewController */,
+				8F650F8D1476EE4D0084091B /* TabBarController */,
+				8F650EFE1476ECC40084091B /* Supporting Files */,
 				8F650F061476ECC40084091B /* AppDelegate.h */,
 				8F650F071476ECC40084091B /* AppDelegate.m */,
-				8F650F091476ECC40084091B /* MainStoryboard.storyboard */,
-				8F650F0C1476ECC50084091B /* FirstViewController.h */,
-				8F650F0D1476ECC50084091B /* FirstViewController.m */,
-				8F650F0F1476ECC50084091B /* first.png */,
-				8F650F111476ECC50084091B /* first@2x.png */,
-				8F650F131476ECC50084091B /* SecondViewController.h */,
-				8F650F141476ECC50084091B /* SecondViewController.m */,
-				8F650F161476ECC50084091B /* second.png */,
-				8F650F181476ECC50084091B /* second@2x.png */,
-				8F650EFE1476ECC40084091B /* Supporting Files */,
 			);
 			path = VJTabSplitViewController;
 			sourceTree = "<group>";
@@ -113,6 +119,45 @@
 				8F650F051476ECC40084091B /* VJTabSplitViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F650F891476ED9B0084091B /* SplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F650F831476ED950084091B /* DetailViewController.h */,
+				8F650F841476ED950084091B /* DetailViewController.m */,
+				8F650F851476ED950084091B /* MasterViewController.h */,
+				8F650F861476ED950084091B /* MasterViewController.m */,
+				8F650F8A1476EDD50084091B /* VJSplitViewController.h */,
+				8F650F8B1476EDD50084091B /* VJSplitViewController.m */,
+			);
+			name = SplitViewController;
+			sourceTree = "<group>";
+		};
+		8F650F8D1476EE4D0084091B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8F650F0C1476ECC50084091B /* FirstViewController.h */,
+				8F650F0D1476ECC50084091B /* FirstViewController.m */,
+				8F650F131476ECC50084091B /* SecondViewController.h */,
+				8F650F141476ECC50084091B /* SecondViewController.m */,
+				8F650F8E1476EE720084091B /* VJTabBarController.h */,
+				8F650F8F1476EE720084091B /* VJTabBarController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		8F650F911476F06C0084091B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F650F091476ECC40084091B /* MainStoryboard.storyboard */,
+				8F650F0F1476ECC50084091B /* first.png */,
+				8F650F111476ECC50084091B /* first@2x.png */,
+				8F650F161476ECC50084091B /* second.png */,
+				8F650F181476ECC50084091B /* second@2x.png */,
+			);
+			name = Resources;
+			path = VJTabSplitViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +187,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Vashishtha Jogi";
 			};
 			buildConfigurationList = 8F650EED1476ECC40084091B /* Build configuration list for PBXProject "VJTabSplitViewController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -185,6 +231,10 @@
 				8F650F081476ECC40084091B /* AppDelegate.m in Sources */,
 				8F650F0E1476ECC50084091B /* FirstViewController.m in Sources */,
 				8F650F151476ECC50084091B /* SecondViewController.m in Sources */,
+				8F650F871476ED950084091B /* DetailViewController.m in Sources */,
+				8F650F881476ED950084091B /* MasterViewController.m in Sources */,
+				8F650F8C1476EDD50084091B /* VJSplitViewController.m in Sources */,
+				8F650F901476EE720084091B /* VJTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

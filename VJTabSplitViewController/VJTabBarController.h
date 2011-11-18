@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VJTabBarController.h
 //  VJTabSplitViewController
 //
 //  Created by Vashishtha Jogi on 11/18/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface VJTabBarController : UITabBarController
 
 @end
