@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F650EF81476ECC40084091B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F650EF71476ECC40084091B /* UIKit.framework */; };
+		8F650EFA1476ECC40084091B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F650EF91476ECC40084091B /* Foundation.framework */; };
+		8F650EFC1476ECC40084091B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F650EFB1476ECC40084091B /* CoreGraphics.framework */; };
+		8F650F021476ECC40084091B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F001476ECC40084091B /* InfoPlist.strings */; };
+		8F650F041476ECC40084091B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F031476ECC40084091B /* main.m */; };
+		8F650F081476ECC40084091B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F071476ECC40084091B /* AppDelegate.m */; };
+		8F650F0B1476ECC40084091B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F091476ECC40084091B /* MainStoryboard.storyboard */; };
+		8F650F0E1476ECC50084091B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F0D1476ECC50084091B /* FirstViewController.m */; };
+		8F650F101476ECC50084091B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F0F1476ECC50084091B /* first.png */; };
+		8F650F121476ECC50084091B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F111476ECC50084091B /* first@2x.png */; };
+		8F650F151476ECC50084091B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F650F141476ECC50084091B /* SecondViewController.m */; };
+		8F650F171476ECC50084091B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F161476ECC50084091B /* second.png */; };
+		8F650F191476ECC50084091B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F650F181476ECC50084091B /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F650EF31476ECC40084091B /* VJTabSplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VJTabSplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F650EF71476ECC40084091B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F650EF91476ECC40084091B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F650EFB1476ECC40084091B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F650EFF1476ECC40084091B /* VJTabSplitViewController-Info.plist */ = {isa = PBXFileReference; path = "VJTabSplitViewController-Info.plist"; sourceTree = "<group>"; };
+		8F650F011476ECC40084091B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F650F031476ECC40084091B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F650F051476ECC40084091B /* VJTabSplitViewController-Prefix.pch */ = {isa = PBXFileReference; path = "VJTabSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		8F650F061476ECC40084091B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F650F071476ECC40084091B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F650F0A1476ECC40084091B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8F650F0C1476ECC50084091B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8F650F0D1476ECC50084091B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8F650F0F1476ECC50084091B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8F650F111476ECC50084091B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8F650F131476ECC50084091B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F650F141476ECC50084091B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8F650F161476ECC50084091B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8F650F181476ECC50084091B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F650EF01476ECC40084091B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F650EF81476ECC40084091B /* UIKit.framework in Frameworks */,
+				8F650EFA1476ECC40084091B /* Foundation.framework in Frameworks */,
+				8F650EFC1476ECC40084091B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F650EE81476ECC40084091B = {
+			isa = PBXGroup;
+			children = (
+				8F650EFD1476ECC40084091B /* VJTabSplitViewController */,
+				8F650EF61476ECC40084091B /* Frameworks */,
+				8F650EF41476ECC40084091B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F650EF41476ECC40084091B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F650EF31476ECC40084091B /* VJTabSplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F650EF61476ECC40084091B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F650EF71476ECC40084091B /* UIKit.framework */,
+				8F650EF91476ECC40084091B /* Foundation.framework */,
+				8F650EFB1476ECC40084091B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F650EFD1476ECC40084091B /* VJTabSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F650F061476ECC40084091B /* AppDelegate.h */,
+				8F650F071476ECC40084091B /* AppDelegate.m */,
+				8F650F091476ECC40084091B /* MainStoryboard.storyboard */,
+				8F650F0C1476ECC50084091B /* FirstViewController.h */,
+				8F650F0D1476ECC50084091B /* FirstViewController.m */,
+				8F650F0F1476ECC50084091B /* first.png */,
+				8F650F111476ECC50084091B /* first@2x.png */,
+				8F650F131476ECC50084091B /* SecondViewController.h */,
+				8F650F141476ECC50084091B /* SecondViewController.m */,
+				8F650F161476ECC50084091B /* second.png */,
+				8F650F181476ECC50084091B /* second@2x.png */,
+				8F650EFE1476ECC40084091B /* Supporting Files */,
+			);
+			path = VJTabSplitViewController;
+			sourceTree = "<group>";
+		};
+		8F650EFE1476ECC40084091B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F650EFF1476ECC40084091B /* VJTabSplitViewController-Info.plist */,
+				8F650F001476ECC40084091B /* InfoPlist.strings */,
+				8F650F031476ECC40084091B /* main.m */,
+				8F650F051476ECC40084091B /* VJTabSplitViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F650EF21476ECC40084091B /* VJTabSplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F650F1C1476ECC50084091B /* Build configuration list for PBXNativeTarget "VJTabSplitViewController" */;
+			buildPhases = (
+				8F650EEF1476ECC40084091B /* Sources */,
+				8F650EF01476ECC40084091B /* Frameworks */,
+				8F650EF11476ECC40084091B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VJTabSplitViewController;
+			productName = VJTabSplitViewController;
+			productReference = 8F650EF31476ECC40084091B /* VJTabSplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F650EEA1476ECC40084091B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8F650EED1476ECC40084091B /* Build configuration list for PBXProject "VJTabSplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F650EE81476ECC40084091B;
+			productRefGroup = 8F650EF41476ECC40084091B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F650EF21476ECC40084091B /* VJTabSplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F650EF11476ECC40084091B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F650F021476ECC40084091B /* InfoPlist.strings in Resources */,
+				8F650F0B1476ECC40084091B /* MainStoryboard.storyboard in Resources */,
+				8F650F101476ECC50084091B /* first.png in Resources */,
+				8F650F121476ECC50084091B /* first@2x.png in Resources */,
+				8F650F171476ECC50084091B /* second.png in Resources */,
+				8F650F191476ECC50084091B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F650EEF1476ECC40084091B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F650F041476ECC40084091B /* main.m in Sources */,
+				8F650F081476ECC40084091B /* AppDelegate.m in Sources */,
+				8F650F0E1476ECC50084091B /* FirstViewController.m in Sources */,
+				8F650F151476ECC50084091B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F650F001476ECC40084091B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F650F011476ECC40084091B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F650F091476ECC40084091B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F650F0A1476ECC40084091B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F650F1A1476ECC50084091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8F650F1B1476ECC50084091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F650F1D1476ECC50084091B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJTabSplitViewController/VJTabSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "VJTabSplitViewController/VJTabSplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F650F1E1476ECC50084091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VJTabSplitViewController/VJTabSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "VJTabSplitViewController/VJTabSplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F650EED1476ECC40084091B /* Build configuration list for PBXProject "VJTabSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F650F1A1476ECC50084091B /* Debug */,
+				8F650F1B1476ECC50084091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F650F1C1476ECC50084091B /* Build configuration list for PBXNativeTarget "VJTabSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F650F1D1476ECC50084091B /* Debug */,
+				8F650F1E1476ECC50084091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F650EEA1476ECC40084091B /* Project object */;
+}
